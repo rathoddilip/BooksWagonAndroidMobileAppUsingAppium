@@ -60,4 +60,11 @@ public class Home extends BaseClass {
         addToWishlist.click();
         Thread.sleep(2000);
     }
+    public void place_order() throws InterruptedException {
+        Thread.sleep(2000);
+        addToCartBasket.click();
+        Thread.sleep(2000);
+        placeOrder.click();
+        Thread.sleep(2000);
+    }
 }

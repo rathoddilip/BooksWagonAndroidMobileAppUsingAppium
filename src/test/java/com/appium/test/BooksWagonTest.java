@@ -37,4 +37,13 @@ public class BooksWagonTest extends BaseClass {
         home.select_particular_book();
         home.add_to_wishlist();
     }
+    @Test
+    public void place_order_book() throws InterruptedException {
+        login_to_application();
+        Home home=new Home(driver);
+        home.search_book();
+        home.select_particular_book();
+        home.add_to_cart();
+        home.place_order();
+    }
 }
