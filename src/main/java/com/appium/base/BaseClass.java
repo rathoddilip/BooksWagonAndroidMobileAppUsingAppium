@@ -35,9 +35,8 @@ public class BaseClass {
         }
     }
 
-    @AfterTest
-    public void tearDown() {
-        driver.closeApp();
-    }
-
+//    @AfterTest
+//    public void tearDown() {
+//        driver.closeApp();
+//    }
 }

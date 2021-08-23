@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="com.appium.test.BooksWagonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-19T12:27:39" hostname="arjun-HP-Laptop-15-bs0xx" time="49.958">
+  <properties/>
+  <testcase name="place_order_book" classname="com.appium.test.BooksWagonTest" time="49.958"/>
+  <system-out><![CDATA[Successfully login to app 
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
