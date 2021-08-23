@@ -21,4 +21,12 @@ public class BooksWagonTest extends BaseClass {
         home.search_book();
         home.select_particular_book();
     }
+    @Test
+    public void add_to_cart() throws InterruptedException {
+        login_to_application();
+        Home home=new Home(driver);
+        home.search_book();
+        home.select_particular_book();
+        home.add_to_cart();
+    }
 }

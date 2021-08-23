@@ -50,4 +50,9 @@ public class Home extends BaseClass {
         Thread.sleep(2000);
 
     }
+    public void add_to_cart() throws InterruptedException {
+        Thread.sleep(2000);
+        addToCart.click();
+        Thread.sleep(2000);
+    }
 }
