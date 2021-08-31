@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.appium.test.BooksWagonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-19T12:27:39" hostname="arjun-HP-Laptop-15-bs0xx" time="49.958">
+<testsuite name="com.appium.test.BooksWagonTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2021-08-31T16:04:26" hostname="arjun-HP-Laptop-15-bs0xx" time="22.244">
   <properties/>
-  <testcase name="place_order_book" classname="com.appium.test.BooksWagonTest" time="49.958"/>
+  <testcase name="login_to_application" classname="com.appium.test.BooksWagonTest" time="22.244"/>
   <system-out><![CDATA[Successfully login to app 
+SUCCESS Test
 ]]></system-out>
   <system-err><![CDATA[]]></system-err>
 </testsuite>

@@ -3,8 +3,11 @@ package com.appium.test;
 import com.appium.base.BaseClass;
 import com.appium.pages.Home;
 import com.appium.pages.Login;
+import com.appium.utility.CustomListener;
+import org.testng.annotations.Listeners;
 import org.testng.annotations.Test;
 
+@Listeners(CustomListener.class)
 public class BooksWagonTest extends BaseClass {
 
     @Test
